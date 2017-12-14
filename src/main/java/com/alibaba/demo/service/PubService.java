@@ -2,7 +2,6 @@ package com.alibaba.demo.service;
 
 import com.alibaba.demo.provider.DemoProvider;
 import com.alibaba.demo.util.DemoUtils;
-import com.taobao.hsf.app.spring.util.HSFSpringProviderBean;
 import com.taobao.hsf.lightapi.ServiceFactory;
 
 /**
@@ -43,5 +42,4 @@ public class PubService {
 		System.out.println("Pub Success.");
 		Thread.sleep(60*1000);
 	}
-
 }
